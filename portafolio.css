@@ -94,26 +94,12 @@ color: var(--main-color);
 }
 .is-active{
     transform: translate(0,0);
-}
+}*/
 
 #panel-btn{
     position: fixed;
     z-index: 999;
     top:0;
-    right: 1vw;
-    width: 3rem;
-    height: 3rem
-    border-radius: 50%;
-    padding: 0;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-color);
-} */
-.panel-btn{
-    position: fixed;
-    z-index: 999;
-  	top:0;
     right: 1vw;
     width: 3rem;
     height: 3rem;
@@ -125,7 +111,7 @@ color: var(--main-color);
     background-color: var(--main-color);
 	cursor:pointer;
 	display:none;
-}
+} 
 
 /* home section */
 .home{
