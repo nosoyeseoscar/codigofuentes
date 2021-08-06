@@ -1,5 +1,6 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); 
+ @import url("hamburgers.min.css");
 
 *{
 	margin:0;
@@ -78,23 +79,9 @@ color: var(--main-color);
 
 /* hambur */
 
-/* .panel{
-    position: fixed;
-    z-index: 998;
-    background-color: var(--second-modal-color);
-    width: 100%;
-    top:0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    transition:transform .3s ease;
-    //venga de arriba 
-    transform: translate(0,-300%);
-    overflow-y: auto;
-}
 .is-active{
     transform: translate(0,0);
-}*/
+}
 
 #panel-btn{
     position: fixed;
@@ -111,7 +98,11 @@ color: var(--main-color);
     background-color: var(--main-color);
 	cursor:pointer;
 	display:none;
+	color:#fff;
 } 
+#panel-btn span{
+	color:#fff;
+}
 
 /* home section */
 .home{
