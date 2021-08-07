@@ -8,6 +8,10 @@
 	box-sizing: border-box;
 	text-decoration: none;
 }
+body{
+	font-size:16px;
+}
+
 :root{
 	--main-color: crimson;
 	--second-color:#222;
@@ -26,6 +30,7 @@ html{
 	transition: all .3s ease;
 	font-family: "Ubuntu",sans-serif;
 	z-index:999;
+	font-size:16px;
 }
 .sticky{
 	padding:15px 0;
@@ -73,7 +78,7 @@ color: var(--main-color);
 	color:var(--third-color);
 	font-size: 18px;
 	font-weight: 500;
-	margin-left: 25px;
+	margin-left: 20px;
 	transition:color .3s ease;
 }
 
@@ -207,7 +212,7 @@ background: none;
 	display:grid;
 	align-items: center;
 	justify-content: space-between;
-	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+	grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
 
 	
  }
@@ -215,6 +220,14 @@ background: none;
 	margin-left:auto;
 	margin-right:auto;
  }
+ .about__content--1 img{
+	height: 507px;
+	width: 380px;
+	object-fit: cover;
+   border-radius:6px;
+   margin-left:auto;
+   margin-right:auto;
+}
  .about__content--2{
 	margin:20px 10px;
 	
@@ -224,6 +237,7 @@ background: none;
 	 font-size: 25px;
 	 font-weight:600;
 	 margin-bottom:10px;
+	
  }
  .about__content--2 span{
 	color:crimson;
@@ -283,7 +297,7 @@ text-align: justify;
    transform:translateX(-50%);
 }
 .service__title::after{
-   content:"What do you win?";
+   content:"You win...";
    position: absolute;
    bottom:-12px;
    left:50%;
@@ -300,18 +314,13 @@ text-align: justify;
 	align-items: center;
 	justify-content: space-between;
 	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-gap:10px;
-	
-/* display:grid;
-	align-items: center;
-	justify-content: space-between;
-	grid-template-columns: repeat(auto-fit, minmax(420px,1fr)); */
- }
+	gap:10px;
+	 }
  .service__content--card{
 	 background:#222;
 	 text-align:center;
 	 border-radius:6px;
-	 padding:20px;
+	 padding:20px 10px;
 	 cursor:pointer;
 	 min-height: 380px;
  }
@@ -799,11 +808,20 @@ footer .name{
 	color:crimson;
 	font-size: 20px;
 }
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	
+ }
+
+
+
+
+
 
  
 @media (max-width:768px) {
 	.navbar__container{
-		padding: 0 20px;
+		padding: 0 10px;
 	}
 	.navbar__link--a{
 		
@@ -824,11 +842,18 @@ footer .name{
 		
 		font-size: 22px;
 		padding:12px 34px;
-		
-		
+	
+	}
+	.about__content--1 img{
+		height: 400px;
+		width: 300px;
+		object-fit: cover;
+	   border-radius:6px;
+	   margin-left:auto;
+	   margin-right:auto;
 	}
 }
-@media (max-width:600px) {
+@media (max-width:604px) {
 	
 	.navbar__container{
 		padding: 0 10px;
@@ -900,10 +925,7 @@ footer .name{
 		object-fit: cover;
 	   border-radius:6px;
 	}
-	.about__content--1{
-	margin-left:60px;
 	
-	}
 
 }
 
