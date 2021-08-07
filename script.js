@@ -21,6 +21,8 @@ const close = d.querySelector(".close-btn")
 
 const pModal=d.querySelector(".pattern")
 
+
+
 /* menu hamburguesa*/
 
 
@@ -121,6 +123,33 @@ d.addEventListener("submit",e=>{
 close.addEventListener("click",()=>{
     content.classList.add("content__hide")
     form.reset()
+})
+
+
+const typed = new Typed(".typed",{
+    //strings: ['Frontend Developer.', '^1000 Accounting Public.'],
+    stringsElement:"#strings",
+    typeSpeed: 75,
+    startDelay:300,
+    backSpeed:90,
+    smartBackSpace:true,
+    shufle:false,
+    backDelay:2500,
+    loop:true,
+    loopCount:false,
+    contentType:"html"
+})
+const typed2 = new Typed(".typed2",{
+    strings: ['Frontend Developer.', '^1000 Accounting Public.'],
+    typeSpeed: 75,
+    startDelay:300,
+    backSpeed:90,
+    smartBackSpace:true,
+    shufle:false,
+    backDelay:2500,
+    loop:true,
+    loopCount:false,
+    contentType:"html"
 })
 
 
