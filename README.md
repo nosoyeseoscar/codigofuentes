@@ -1,2 +1,2 @@
 # gerardojao.github.io
-My Own portfolio
+My Own Portfolio
