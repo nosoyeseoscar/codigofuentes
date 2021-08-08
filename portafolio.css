@@ -797,7 +797,7 @@ cursor:pointer;
 	border:2px solid crimson;
 	transition: all .3s ease;
 	text-align:center;
-	width:40%;
+	width:50%;
 }
 .form__button:hover{
 	color:crimson;
