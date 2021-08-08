@@ -76,9 +76,9 @@ color: var(--main-color);
 }
 .navbar__link--white{
 	color:var(--third-color);
-	font-size: 18px;
-	font-weight: 500;
-	margin-left: 20px;
+	font-size: 17px;
+	font-weight: 350;
+	margin-left: 10px;
 	transition:color .3s ease;
 }
 
@@ -797,7 +797,7 @@ cursor:pointer;
 	border:2px solid crimson;
 	transition: all .3s ease;
 	text-align:center;
-	width:30%;
+	width:40%;
 }
 .form__button:hover{
 	color:crimson;
@@ -877,6 +877,7 @@ footer .rrss a [title]{
 	}
 	
 }
+
 @media (max-width:604px) {
 	
 	.navbar__container{
