@@ -1075,6 +1075,40 @@ footer .rrss a [title]{
 	background: none;
 
 }
-
+@media (max-width:380px){
+	.mensaje{
+		display: block;
+		color:crimson;
+		margin-top:10px;
+		font-size: 18px;
+		position: relative;
+		
+		transition:all .5s;
+		z-index:-50;
+		top:-140px;
+		
+	}
+	.mensaje-js{
+		text-align: left;
+		display: block;
+		color:#222;
+		margin-top:10px;
+		font-size: 18px;
+		position: relative;
+		
+		transition:all .5s;
+		z-index:1;
+		top:-160px;
+	}
+	.formulario__mensaje:focus +.mensaje{
+		
+		z-index:1;
+		font-weight: 100;
+		top:-160px;
+	
+	}
+	
+	
+}
 
 
