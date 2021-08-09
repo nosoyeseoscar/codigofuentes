@@ -368,7 +368,7 @@ text-align: justify;
    text-align:center;
    font-size: 40px;
    font-weight: 500;
-   margin-bottom: 60px;
+   margin-bottom: 30px;
    padding-bottom: 20px;
    position: relative;
 }
@@ -421,7 +421,7 @@ text-align: justify;
 	font-size: 20px;
 	font-weight:500;
 	padding:10px 30px;
-	margin-top:20px;
+	margin-top:40px;
 	border-radius: 6px;
 	border:2px solid crimson;
 	transition: all .3s ease;
