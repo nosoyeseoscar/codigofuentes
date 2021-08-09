@@ -246,6 +246,7 @@ background: none;
 }
 .about__content--2 p{
 text-align: justify;
+
 	
 }
 .about__content--2 a{
@@ -255,7 +256,7 @@ text-align: justify;
 	font-size: 20px;
 	font-weight:500;
 	padding:10px 20px;
-	margin-top:20px;
+	margin-top:40px;
 	border-radius: 6px;
 	border:2px solid crimson;
 	transition: all .3s ease;
