@@ -284,10 +284,10 @@
 						<div class="text">Message me</div>
 
 						<input  type="text" class="formulario__items" name="name"
-						id="name" required>
+						id="name" title="Only accept space and letters" pattern="^[a-zA-ZÑñ\s]+$" required>
 						<label id="label" class="form-label" for="name" >Name:</label>
 						
-						<input id="email" type="text" class="formulario__items" name="email" required >
+						<input id="email" type="text" class="formulario__items" name="email"  pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z]{2,15})$" title="Email format incorrect" required >
 						<label id="label" class="form-label" for="email">Email:</label>
 						
 						<input id="subject" type="text" class="formulario__items" name="subject"  required>
