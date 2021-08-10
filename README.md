@@ -2,7 +2,7 @@
 # gerardojao.github.io
 My Own Portfolio
 
-<h2> Hi! I'm souvik. <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
+<h2> Hi! I'm Gerardo.</h2>
 <img align="center" src="https://raw.githubusercontent.com/gerardojao/fondoGitHub.png" width="500"/>
 
 <h3> 👨🏻‍💻 About Me </h3>
@@ -10,9 +10,9 @@ My Own Portfolio
 - 🔭 &nbsp; I’m husband and Father who decided to be an Accounting public && Web Developer.
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
 
-<h3>🛠 Tech Stack</h3>
+<h3>🛠 Web Developer FrontEnd</h3>
 
-- 💻 &nbsp; Python | Dart | Java | C++  
+ 
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS | NODE JS 
 - 🛢 &nbsp; MySQL | Xampp
 
