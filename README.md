@@ -1,7 +1,4 @@
 
-
-
-<<<<<<< HEAD
 =======
 # My  Portfolio
 ## gerardojao.github.io
@@ -11,4 +8,4 @@
 =======
 <img src="./fondogithub.png"> 
 
->>>>>>> 1f296dfad546b5780e8d14435209761126580edc
+
