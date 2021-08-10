@@ -1,13 +1,12 @@
 
 # gerardojao.github.io
-## My Own Portfolio
 
 <h2> Hi! I'm Gerardo.</h2>
 
 
 <h3> 👨🏻‍💻 About Me </h3>
 
-- 🔭 &nbsp; I’m husband and Father who decided to be an Accounting public && Web Developer.
+- 👨‍👩‍👧‍👦 &nbsp; I’m husband and Father who decided to be an Accounting public && Web Developer.
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
 
 <h3>🛠 Web Developer FrontEnd</h3>
