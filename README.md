@@ -1,4 +1,4 @@
 # My  Portfolio
 ## gerardojao.github.io
 
-![alt text](http://url/to/fondoGitHub.png)
+![alt text](https://raw.github.com/gerardojao/gerardojao/branch/path/to/fondoGitHub.png)
