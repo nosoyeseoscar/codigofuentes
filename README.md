@@ -1,9 +1,9 @@
 
 # gerardojao.github.io
-My Own Portfolio
+## My Own Portfolio
 
 <h2> Hi! I'm Gerardo.</h2>
-<img align="center" src="https://raw.githubusercontent.com/gerardojao/fondoGitHub.png" width="500"/>
+
 
 <h3> 👨🏻‍💻 About Me </h3>
 
