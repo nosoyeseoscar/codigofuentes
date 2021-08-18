@@ -783,9 +783,6 @@ font-weight: 600;
 	top:-180px;
 
 }
-
-
-
 .form__button{
 	display:inline-block;
 	color:#fff;
@@ -839,10 +836,6 @@ footer .rrss a [title]{
 	
 }
 
-
-
-
- 
 @media (max-width:768px) {
 	.navbar__container{
 		padding: 0 10px;
@@ -853,6 +846,7 @@ footer .rrss a [title]{
 		font-weight: 350;
 		margin-left: 10px;
 		transition:color .3s ease;
+		
 	}
 	.home__content--2{
 		font-size: 60px;
@@ -956,6 +950,30 @@ footer .rrss a [title]{
 		min-height:300px;
 	}
 	
+}
+@media (min-width:1040px){
+	.about__content{
+
+		grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+		/* tenia en minmax350,1fr */
+	
+	 }
+	 
+	 .about__content--1 img{
+		height: 600px;
+		width: 450px;
+		
+	}
+	 .about__content--2{
+		margin:20px 20px;
+		
+		
+	 }
+	 .about__content--2 div{
+		 font-size: 30px;
+		 
+		
+	 }
 }
 
 /* scroll */
