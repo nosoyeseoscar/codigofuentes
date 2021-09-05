@@ -86,12 +86,7 @@ mensaje.addEventListener("keyup",()=>{
        
        })
 
-
-    
-
-
 d.addEventListener("submit",e=>{
-
 
     e.preventDefault();
 
@@ -111,8 +106,6 @@ d.addEventListener("submit",e=>{
         console.log(json)
         content.classList.remove("content__hide")
         pModal.innerHTML =` ${inputs[0].value}`
-        //console.log("hola")
-        
     })
     .catch(err=>{
         console.log(err)
