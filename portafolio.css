@@ -34,7 +34,7 @@ html{
 }
 .sticky{
 	padding:15px 0;
-	background: var(--main-color); 
+ 	background: var(--main-color);  
 }
 
 
@@ -66,7 +66,7 @@ color: var(--main-color);
 }
 .navbar__link--a{
 	color:var(--third-color);
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 500;
 	margin-left: 20px;
 	transition:color .3s ease;
@@ -77,8 +77,8 @@ color: var(--main-color);
 .navbar__link--white{
 	color:var(--third-color);
 	font-size: 17px;
-	font-weight: 350;
-	margin-left: 10px;
+	font-weight: 500;
+	margin-left: 20px;
 	transition:color .3s ease;
 }
 
@@ -842,8 +842,16 @@ footer .rrss a [title]{
 	}
 	.navbar__link--a{
 		
-		font-size: 17px;
-		font-weight: 350;
+		font-size: 18px;
+		font-weight: 450;
+		margin-left: 10px;
+		transition:color .3s ease;
+		
+	}
+	.navbar__link--white{
+		
+		font-size: 18px;
+		font-weight: 450;
 		margin-left: 10px;
 		transition:color .3s ease;
 		
