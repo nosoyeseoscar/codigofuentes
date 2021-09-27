@@ -110,7 +110,7 @@ color: var(--main-color);
 .home{
 	display:flex;
 	height: 100vh;
-	background: url("./assets/portfolioBackground.png") fixed no-repeat;
+	background: url("./assets/darkbg.jpg") fixed no-repeat;
 	background-size: cover;
 	color:#fff;
 	min-height: 500px;
