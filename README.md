@@ -6,7 +6,7 @@
 
 <h3> 👨🏻‍💻 About Me </h3>
 
-- 👨‍👩‍👧‍👦 &nbsp; I’m husband and Father who decided to be an Accountant public && Web Developer.
+- 👨‍👩‍👧‍👦 &nbsp; I’m husband and Father who decided to be a Public Accountant  && Web Developer.
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
 
 <h3>🛠 Web Developer FrontEnd</h3>
