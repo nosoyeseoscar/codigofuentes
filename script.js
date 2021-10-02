@@ -133,7 +133,7 @@ const typed = new Typed(".typed",{
     contentType:"html"
 })
 const typed2 = new Typed(".typed2",{
-    strings: ['Frontend Developer.', '^1000 Accounting Public.'],
+    strings: ['Frontend Developer.', '^1000 Public Accountant.'],
     typeSpeed: 75,
     startDelay:300,
     backSpeed:90,
