@@ -120,7 +120,7 @@ close.addEventListener("click",()=>{
 
 
 const typed = new Typed(".typed",{
-    //strings: ['Frontend Developer.', '^1000 Accounting Public.'],
+    //strings: ['Frontend Developer.', '^1000 Public Accountant.'],
     stringsElement:"#strings",
     typeSpeed: 75,
     startDelay:300,
