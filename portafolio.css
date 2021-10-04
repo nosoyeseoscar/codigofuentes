@@ -91,7 +91,7 @@ color: var(--main-color);
 #panel-btn{
     position: fixed;
     z-index: 999;
-    top:0;
+	top:2vh;
     right: 1vw;
     width: 3rem;
     height: 3rem;
@@ -924,7 +924,7 @@ footer .rrss a [title]{
 	}
 	#panel-btn{
 		display:block;
-		top: 3vh;
+		
     	right: 2.5vw;
 		/* background: none; */
 	}
@@ -1028,6 +1028,7 @@ footer .rrss a [title]{
 		font-size:12px;
 		
 	}
+	
 	
 	
 	
