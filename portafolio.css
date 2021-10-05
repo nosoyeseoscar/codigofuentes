@@ -394,27 +394,32 @@ text-align: justify;
    font-size: 20px;
 
 }
-.skills__content{
+ .skills__content{
 
-	display:grid;
+	display:flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
-	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-	gap:10px;
+	justify-content: center;
 	
- }
+	
+ } 
  .skills__content--creative,.skills__content--bars{
-	margin:20px;
+	margin:20px;width: 90%;
  }
  .skills__content--creative .text{
 	font-size: 25px;
 	font-weight:600;
 	margin-bottom:10px;
 }
+.skills__content--bars .text{
+	font-size: 25px;
+	font-weight:600;
+	margin-bottom:30px;
+}
 .skills__content--creative p{
 	text-align: justify;
 }
-.skills__content--creative a{
+.skills__content a{
 	display:inline-block;
 	color:#fff;
 	background-color: crimson;
@@ -425,25 +430,19 @@ text-align: justify;
 	border-radius: 6px;
 	border:2px solid crimson;
 	transition: all .3s ease;
+	justify-content: center;
+	align-items: center;
+	width: 180px;
+	height: auto;
+	text-align: center;
 }
-.skills__content--creative a:hover{
+.skills__content a:hover{
 	
 	color:crimson;
 	background: none;
 
 }
 
-.skills__content--bars .bars{
-
-	margin-bottom:15px;
-	position: relative;
-}
-.skills__content--bars .info{
-	display:flex;
-	align-items: center;
-	justify-content: space-between;
-
-}
 .skills__content--bars span{
 	font-weight: 500;
 	font-size: 18px;
@@ -466,27 +465,8 @@ text-align: justify;
 	background: crimson; 
 	
  } 
- .skills__content--bars .html::before{
-	width: 90%;
- }
- .skills__content--bars .css::before{
-	width: 80%;
- }
- .skills__content--bars .js::before{
-	width: 80%;
- }
- .skills__content--bars .git::before{
-	width: 80%;
- }
- .skills__content--bars .node::before{
-	width: 50%;
- }
- .skills__content--bars .sql::before{
-	width: 40%;
- }
- .skills__content--bars .gulp::before{
-	width: 60%;
- }
+
+
  /* portfolio/portfolio */
 
  .portfolio{
@@ -790,7 +770,7 @@ font-weight: 600;
 	font-size: 20px;
 	font-weight:500;
 	padding:10px 30px;
-cursor:pointer;
+	cursor:pointer;
 	border-radius: 6px;
 	border:2px solid crimson;
 	transition: all .3s ease;
@@ -1175,5 +1155,33 @@ footer .rrss a [title]{
 	background: none;
 
 }
+
+.filters li{
+
+		display: inline-block;
+		padding: 8px 5px;
+		background-color: #313131;
+		color: #f1f1f1f1;
+		border-width: 1px 1px 2px 1px;
+		border-style: solid;
+		border-color: #222;
+		border-radius: 3px;
+		text-transform: uppercase;
+		font-family: MontSerrat,Tahoma,Arial,sans-serif;
+		font-weight: 700;
+		font-size: .75em;
+		line-height: 1em;
+		box-shadow: 2px 2px 0 rgba(0,0,0,.25);
+		margin: 3px;
+		opacity: 1;
+		position: relative;
+		overflow: hidden;
+
+}
+.filters li:hover{
+	background-color: crimson;
+
+}
+
 
 
