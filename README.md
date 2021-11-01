@@ -12,7 +12,7 @@
 <h3>🛠 Web Developer FrontEnd</h3>
 
  
-- 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS | NODE JS 
+- 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS | 
 - 🛢 &nbsp; MySQL | Xampp
 
 
