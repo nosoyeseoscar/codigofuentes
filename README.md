@@ -13,7 +13,7 @@
 
  
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
-- 🛢 &nbsp;.NET | 
+- 🌐 &nbsp;.NET | 
 - 🛢 &nbsp; SQL SERVER | 
 - &nbsp; &nbsp; PUG | SASS 
 
