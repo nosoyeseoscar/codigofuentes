@@ -13,8 +13,9 @@
 
  
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
-- 🛢 &nbsp; SQL SERVER | .NET
--    &nbsp; PUG | SASS 
+- 🛢 &nbsp;.NET | 
+- 🛢 &nbsp; SQL SERVER | 
+- &nbsp; &nbsp; PUG | SASS 
 
 
 <h3> 🤝🏻 Connect with Me </h3>
