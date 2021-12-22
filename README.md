@@ -10,12 +10,14 @@
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
 
 <h3>🛠 Web Developer FrontEnd</h3>
-
  
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
+- &nbsp; &nbsp; PUG | SASS 
+
+<h3>🛠 Web Developer FrontEnd</h3>
+
 - 🌐 &nbsp;.NET 
 - 🛢 &nbsp; SQL SERVER  
-- &nbsp; &nbsp; PUG | SASS 
 
 
 <h3> 🤝🏻 Connect with Me </h3>
