@@ -12,8 +12,9 @@
 <h3>🛠 Web Developer FrontEnd</h3>
 
  
-- 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS | 
-- 🛢 &nbsp; MySQL | Xampp
+- 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
+- 🛢 &nbsp; SQL SERVER | .NET
+-    &nbsp; PUG | SASS 
 
 
 <h3> 🤝🏻 Connect with Me </h3>
