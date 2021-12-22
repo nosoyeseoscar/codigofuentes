@@ -14,9 +14,9 @@
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
 - &nbsp; &nbsp; PUG | SASS 
 
-<h3>🛠 Web Developer FrontEnd</h3>
+<h3>🛠 Web Developer BackEnd</h3>
 
-- 🌐 &nbsp;.NET 
+- 🌐 &nbsp;.NET | NODE JS  (Trainee)
 - 🛢 &nbsp; SQL SERVER  
 
 
