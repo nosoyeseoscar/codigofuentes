@@ -9,14 +9,14 @@
 - 👨‍👩‍👧‍👦 &nbsp; I’m husband and Father who decided to be a Public Accountant  && Web Developer.
 - ☕ &nbsp; I belive, a perfect cup of coffee can be the ultimate solution for any stress. 
 
-<h3>🛠 FrontEnd Developer</h3>
+<h3>🛠 FrontEnd Tools</h3>
  
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
 - &nbsp; &nbsp; PUG | SASS 
 
-<h3>🛠 BackEnd Developer</h3>
+<h3>🛠 BackEnd Tools</h3>
 
-- 🌐 &nbsp;.NET | NODE JS  (Trainee)
+- 🌐 &nbsp;.NET  (Trainee)
 - 🛢 &nbsp; SQL SERVER  
 
 
