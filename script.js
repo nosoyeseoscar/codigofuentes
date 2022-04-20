@@ -120,7 +120,7 @@ close.addEventListener("click",()=>{
 
 
 const typed = new Typed(".typed",{
-    //strings: ['Frontend Developer.', '^1000 Public Accountant.'],
+     strings: ['Frontend Developer.', 'Backend Developer.'],
     stringsElement:"#strings",
     typeSpeed: 75,
     startDelay:300,
@@ -133,7 +133,7 @@ const typed = new Typed(".typed",{
     contentType:"html"
 })
 const typed2 = new Typed(".typed2",{
-    strings: ['Frontend Developer.'],
+    strings: ['Frontend Developer.', 'Backend Developer.'],
     typeSpeed: 75,
     startDelay:300,
     backSpeed:90,
@@ -145,4 +145,23 @@ const typed2 = new Typed(".typed2",{
     contentType:"html"
 })
 
+const flags = d.getElementById("flags")
+const textsToChange = d.querySelectorAll("[data-section]")
 
+const changeLanguages = async language =>{
+    const requestJson = await fetch(`languages/${language}.json`)
+    const texts = await requestJson.json()
+
+    for (const textToChange of textsToChange) {
+        const  section = textToChange.dataset.section 
+        const value = textToChange.dataset.value
+
+   textToChange.innerHTML = texts[section][value]
+    }
+  
+
+}
+
+flags.addEventListener("click", e=>{
+    changeLanguages(e.target.parentElement.dataset.languages);
+})
