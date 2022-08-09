@@ -16,7 +16,7 @@
 
 <h3>🛠 BackEnd Tools</h3>
 
-- 🌐 &nbsp;.NET  (Trainee)
+- 🌐 &nbsp;.NET  (Junior)
 - 🛢 &nbsp; SQL SERVER  
 
 
