@@ -166,7 +166,7 @@ section {
   transform: translateX(-50%);
 }
 .about__title::after {
-  content: "Who I am?";
+  content: "Who I am";
   position: absolute;
   bottom: -12px;
   left: 50%;
