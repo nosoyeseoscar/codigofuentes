@@ -185,7 +185,7 @@ section {
   transform: translateX(-50%);
 }
 .about__title::after {
-  content: "Who I am?";
+  content: "Who I am";
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -799,7 +799,7 @@ footer .rrss a [title] {
     transition: all 0.3s ease;
   }
   .menu--active {
-    left: 0;
+    left: 50;
   }
 
   .navbar__link {
