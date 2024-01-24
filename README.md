@@ -12,12 +12,14 @@
 <h3>🛠 FrontEnd Tools</h3>
  
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
-- &nbsp; &nbsp; PUG | SASS 
+- &nbsp; &nbsp; SASS 
 
 <h3>🛠 BackEnd Tools</h3>
 
-- 🌐 &nbsp;.NET  (Junior)
-- 🛢 &nbsp; SQL SERVER  
+- 🌐 &nbsp;.NET
+- 🌐 &nbsp; WPF
+- 🛢 &nbsp; SQL SERVER 
+- 🛢 &nbsp; SQLITE   
 
 
 <h3> 🤝🏻 Connect with Me </h3>
