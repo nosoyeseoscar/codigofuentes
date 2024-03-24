@@ -12,7 +12,7 @@
 <h3>🛠 FrontEnd Tools</h3>
  
 - 🌐 &nbsp; HTML | CSS | JavaScript | REACT JS  
-- &nbsp; &nbsp; SASS 
+ 
 
 <h3>🛠 BackEnd Tools</h3>
 
