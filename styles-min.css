@@ -16,7 +16,9 @@ body {
 }
 html {
   scroll-behavior: smooth;
-} /* navbar style */
+} 
+
+/* navbar style */
 .navbar {
   position: fixed;
   width: 100%;
@@ -28,7 +30,7 @@ html {
 }
 .sticky {
   padding: 15px 0;
-  background: var(--main-color);
+  background: var(--second-color);
 }
 .navbar__container {
   display: flex;
@@ -69,7 +71,9 @@ html {
   font-weight: 500;
   margin-left: 20px;
   transition: color 0.3s ease;
-} /* hambur */
+} 
+
+/* hambur */
 .is-active {
   transform: translate(0, 0);
 }
@@ -89,7 +93,9 @@ html {
   cursor: pointer;
   display: none;
   color: #fff;
-} /* home section */
+} 
+
+/* home section */
 .home {
   display: flex;
   height: 100vh;
@@ -117,7 +123,7 @@ html {
   margin: 5px 0;
 }
 .home__content--span {
-  color: crimson;
+  color: var(--main-color);
   font-weight: 700;
   font-size: 40px;
 }
@@ -128,12 +134,12 @@ html {
 .home__content--link {
   display: inline-block;
   color: #fff;
-  background-color: crimson;
+  background-color: var(--main-color);
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid var(--main-color);
   transition: all 0.3s ease;
 }
 .home__content--link:hover {
@@ -170,7 +176,7 @@ section {
   position: absolute;
   bottom: -12px;
   left: 50%;
-  color: crimson;
+  color: var(--main-color);
   background: #fff;
   transform: translateX(-50%);
   padding: 5px;
@@ -215,7 +221,7 @@ section {
   margin-bottom: 10px;
 }
 .about__content--2 span {
-  color: crimson;
+  color: var(--main-color);
 }
 .about__content--2 p {
   text-align: justify;
@@ -223,19 +229,19 @@ section {
 .about__content--2 a {
   display: inline-block;
   color: #fff;
-  background-color: crimson;
+  background-color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
   padding: 10px 20px;
   margin-top: 40px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid var(--main-color);
   transition: all 0.3s ease;
   width: 200px;
   text-align: center;
 }
 .about__content--2 a:hover {
-  color: crimson;
+  color: var(--main-color);
   background: none;
 } /* services section */
 .service {
@@ -269,7 +275,7 @@ section {
   position: absolute;
   bottom: -12px;
   left: 50%;
-  color: crimson;
+  color: var(--main-color);
   background: #111;
   transform: translateX(-50%);
   padding: 5px;
@@ -292,10 +298,10 @@ section {
   min-height: 380px;
 }
 .service__content--card:hover {
-  background: crimson;
+  background: var(--main-color);
 }
 .service__content--card i {
-  color: crimson;
+  color: var(--main-color);
   font-size: 50px;
   padding-bottom: 10px;
   transition: color 0.3s ease;
@@ -342,7 +348,7 @@ section {
   position: absolute;
   bottom: -12px;
   left: 50%;
-  color: crimson;
+  color: var(--main-color);
   background: #fff;
   transform: translateX(-50%);
   padding: 5px;
@@ -377,13 +383,13 @@ section {
 .skills__content a {
   display: inline-block;
   color: #fff;
-  background-color: crimson;
+  background-color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 40px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid var(--main-color);
   transition: all 0.3s ease;
   justify-content: center;
   align-items: center;
@@ -392,7 +398,7 @@ section {
   text-align: center;
 }
 .skills__content a:hover {
-  color: crimson;
+  color: var(--main-color);
   background: none;
 }
 .skills__content--bars span {
@@ -412,7 +418,7 @@ section {
   left: 0;
   width: 80%;
   height: 100%;
-  background: crimson;
+  background: var(--main-color);
 }
 .filters li {
   display: inline-block;
@@ -435,7 +441,7 @@ section {
   overflow: hidden;
 }
 .filters li:hover {
-  background-color: crimson;
+  background-color: var(--main-color);
 } /* portfolio/portfolio */
 .portfolio {
   font-family: "Poppins", sans-serif;
@@ -468,7 +474,7 @@ section {
   position: absolute;
   bottom: -12px;
   left: 50%;
-  color: crimson;
+  color: var(--main-color);
   background: #111;
   transform: translateX(-50%);
   padding: 5px;
@@ -489,7 +495,7 @@ section {
   transition: all 0.3s ease;
 }
 .portfolio__container--carousel .card:hover {
-  background: crimson;
+  background: var(--main-color);
 }
 .portfolio__container--carousel .card:hover .box {
   transform: scale(1.05);
@@ -504,7 +510,7 @@ section {
   width: 250px;
   object-fit: cover;
   border-radius: 20%;
-  border: 5px solid crimson;
+  border: 5px solid var(--main-color);
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -541,7 +547,7 @@ section {
   position: absolute;
   bottom: -12px;
   left: 50%;
-  color: crimson;
+  color: var(--main-color);
   background: #fff;
   transform: translateX(-50%);
   padding: 5px;
@@ -590,7 +596,7 @@ section {
 }
 .form__content--1 .row i {
   font-size: 25px;
-  color: crimson;
+  color: var(--main-color);
 }
 .form__content--1 .info .head {
   font-weight: 600;
@@ -621,7 +627,7 @@ section {
 }
 .form-label {
   display: inline-block;
-  color: crimson;
+  color: var(--main-color);
   margin-top: 10px;
   font-size: 18px;
   position: relative;
@@ -650,8 +656,8 @@ section {
   color: #222;
   border-radius: 2px;
   padding: 8px;
-  border-bottom: 2px solid crimson;
-  border-right: 2px solid crimson;
+  border-bottom: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
   border-radius: 5px;
   width: 90%;
   outline: 0;
@@ -668,15 +674,15 @@ section {
   color: #222;
   border-radius: 5px;
   padding: 12px;
-  border-bottom: 2px solid crimson;
-  border-right: 2px solid crimson;
+  border-bottom: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
   resize: none;
   width: 90%;
   outline: 0;
 }
 .mensaje {
   display: block;
-  color: crimson;
+  color: var(--main-color);
   margin-top: 10px;
   font-size: 18px;
   position: relative;
@@ -703,19 +709,19 @@ section {
 .form__button {
   display: inline-block;
   color: #fff;
-  background-color: crimson;
+  background-color: var(--main-color);
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   cursor: pointer;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid var(--main-color);
   transition: all 0.3s ease;
   text-align: center;
   width: 50%;
 }
 .form__button:hover {
-  color: crimson;
+  color: var(--main-color);
   background: none;
 } /* footer section */
 footer {
@@ -725,7 +731,7 @@ footer {
   text-align: center;
 }
 footer .name {
-  color: crimson;
+  color: var(--main-color);
   font-size: 20px;
 }
 footer .rsss {
@@ -853,7 +859,7 @@ footer .rrss a [title] {
 @media (max-width: 380px) {
   .mensaje {
     display: block;
-    color: crimson;
+    color: var(--main-color);
     margin-top: 10px;
     font-size: 18px;
     position: relative;
@@ -927,7 +933,7 @@ footer .rrss a [title] {
   width: 4rem;
   height: 4rem;
   right: 2vw;
-  background-color: crimson;
+  background-color: var(--main-color);
   border-radius: 50%;
   border: 2px solid #fff;
   font-size: 2rem;
@@ -939,7 +945,7 @@ footer .rrss a [title] {
 .scroll-top-btn:hover {
   background-color: var(--third-color);
   color: var(--main-color);
-  border: 2px solid crimson;
+  border: 2px solid var(--main-color);
 }
 .hidden {
   opacity: 0;
@@ -966,7 +972,7 @@ footer .rrss a [title] {
 }
 .header {
   height: 68px;
-  background: crimson;
+  background: var(--main-color);
   overflow: hidden;
   border-radius: 3px 3px 0 0;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
@@ -978,13 +984,13 @@ footer .rrss a [title] {
   padding-top: 20px;
 }
 .fa-check {
-  color: crimson;
+  color: var(--main-color);
   font-size: 50px;
   font-weight: bold;
   cursor: pointer;
   height: 80px;
   width: 80px;
-  border: 2px solid crimson;
+  border: 2px solid var(--main-color);
   text-align: center;
   margin: 30px 0 0 160px;
   padding-top: 13px;
@@ -998,7 +1004,7 @@ footer .rrss a [title] {
 }
 .bigFont {
   font-size: 25px;
-  color: Crimson;
+  color: var(--main-color);
 }
 .line {
   bottom: 60px;
@@ -1013,13 +1019,13 @@ footer .rrss a [title] {
   border-radius: 5px;
   cursor: pointer;
   padding: 8px 10px;
-  border: 1px solid crimson;
+  border: 1px solid var(--main-color);
   display: inline-block;
   color: #fff;
-  background-color: crimson;
+  background-color: var(--main-color);
   transition: all 0.3s ease;
 }
 .close-btn:hover {
-  color: crimson;
+  color: var(--main-color);
   background: none;
 }
