@@ -97,7 +97,7 @@ d.addEventListener("submit",e=>{
 
   textarea.classList.replace("mensaje-js","mensaje")
 
-  fetch("https://formsubmit.co/ajax/gerardojao@gmail.com",{
+  fetch("https://formsubmit.co/ajax/ofuentese@gmail.com",{
       method:"POST",
       body: new FormData(e.target)
   })
