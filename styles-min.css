@@ -99,6 +99,7 @@ html {
 .home {
   display: flex;
   height: 100vh;
+  /* TODO: change BG */
   background: url("./assets/darkbg.jpg") fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -132,8 +133,9 @@ html {
   visibility: hidden;
 }
 .home__content--link {
+  /* Home button */
   display: inline-block;
-  color: #fff;
+  color: var(--second-color);
   background-color: var(--main-color);
   font-size: 25px;
   padding: 12px 36px;
@@ -145,7 +147,9 @@ html {
 .home__content--link:hover {
   color: #fff;
   background: none;
-} /* about section */
+} 
+
+/* about section */
 section {
   padding: 70px 0;
 }
