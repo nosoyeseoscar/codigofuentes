@@ -223,9 +223,10 @@ CSS from About Photo <-- removed
   margin: auto;
 } */
 
-/* .about__content--2 {
-  margin: 20px;
-} */
+.about__content--2 {
+  text-align: center;
+} 
+
 .about__content--2 div {
   font-size: 25px;
   font-weight: 600;
@@ -254,7 +255,9 @@ CSS from About Photo <-- removed
 .about__content--2 a:hover {
   color: var(--fourth-color);
   background: none;
-} /* services section */
+} 
+
+/* services section */
 .service {
   font-family: "Poppins", sans-serif;
   padding-left: 10px;
@@ -371,11 +374,11 @@ CSS from About Photo <-- removed
   align-items: center;
   justify-content: center;
   max-width: 1300px;
-  margin: auto;
+  /* margin: auto; */
 }
 .about__content--2, .skills__content--creative,
 .skills__content--bars {
-  margin: 20px;
+  margin: 20px auto;
   width: 90%;
 }
 .skills__content--creative .text {
@@ -938,9 +941,9 @@ footer .rrss a [title] {
     height: 600px;
     width: 450px;
   } */
-  .about__content--2 {
+  /* .about__content--2 {
     margin: 20px 20px;
-  }
+  } */
   .about__content--2 div {
     font-size: 30px;
   }
